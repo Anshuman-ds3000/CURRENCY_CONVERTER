@@ -1,0 +1,63 @@
+.final
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1e130c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 400px;
+    width: 1000px;
+    border-radius: 8px;
+    border:none;
+    row-gap: 20px;
+    box-shadow: 6px 20px 25px black;
+}
+button
+{
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    font-family:fantasy ;
+    font-size: 20px;
+    color: rgb(69, 64, 64);
+}
+input
+{
+    height: 40px;
+    width: 400px;
+    background-color:aliceblue;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border: none;
+    color: rgb(77, 74, 74);
+}
+select
+{
+    height: 50px;
+    width: 20px;
+}
+button:hover
+{
+    background: #403B4A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E7E9BB, #403B4A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    color: rgb(235, 235, 228);
+}
+h1
+{
+color: rgb(151, 144, 140);
+}
